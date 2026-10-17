@@ -6,12 +6,12 @@ while True:
     except ValueError:
         print("Введите только целые числа.")
         continue
-
-    if A <= 0 or B <= 0 or C <= 0:
-        print("Все стороны должны быть больше 0")
-        continue
     break
-    # Считаем площади квадрата и прямоугольника
+
+if A <= 0 or B <= 0 or C <= 0:
+    print("Все стороны должны быть больше 0")
+
+# Считаем площади квадрата и прямоугольника
 
 square = (C * C)
 pramoyg = (A * B)
