@@ -18,7 +18,6 @@ while True:
     # Количество квадратов в прямоугольнике без остатка и с ним
     сount_sq = (pramoyg // square)
     ostatok = (pramoyg % square)
-
     # Выводим значения
     print(f"Можно разместить квадратов: {сount_sq}")
     print(f"Остаток: {ostatok}")
