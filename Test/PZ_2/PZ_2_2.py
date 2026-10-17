@@ -14,6 +14,7 @@ while True:
     # Считаем площади квадрата и прямоугольника
     square = (C * C)
     pramoyg = (A * B)
+
     # Количество квадратов в прямоугольнике без остатка и с ним
     сount_sq = (pramoyg // square)
     ostatok = (pramoyg % square)
