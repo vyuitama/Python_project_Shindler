@@ -10,15 +10,17 @@ while True:
     if A <= 0 or B <= 0 or C <= 0:
         print("Все стороны должны быть больше 0")
         continue
-
-    # Считаем площади квадрата и прямоугольника
-    square = (C * C)
-    pramoyg = (A * B)
-
-    # Количество квадратов в прямоугольнике без остатка и с ним
-    сount_sq = (pramoyg // square)
-    ostatok = (pramoyg % square)
-    # Выводим значения
-    print(f"Можно разместить квадратов: {сount_sq}")
-    print(f"Остаток: {ostatok}")
     break
+    # Считаем площади квадрата и прямоугольника
+
+square = (C * C)
+pramoyg = (A * B)
+
+# Количество квадратов в прямоугольнике без остатка и с ним
+
+сount_sq = (pramoyg // square)
+ostatok = (pramoyg % square)
+
+# Выводим значения
+print(f"Можно разместить квадратов: {сount_sq}")
+print(f"Остаток: {ostatok}")
